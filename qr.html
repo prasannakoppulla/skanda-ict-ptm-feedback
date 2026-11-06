@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PTM Parent Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial;
+            background: #eaf3ff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            max-width: 450px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #aaa;
+        }
+        h2 { color: #0756a5; }
+        label {
+            display: block;
+            text-align: left;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        select, textarea, input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            box-sizing: border-box;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+        }
+        button {
+            background: #087bdb;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🌟 Parent Feedback Form</h2>
+    <h3>Digital Payments Using Paytm</h3>
+    <p>Thank you for encouraging our young presenters!</p>
+
+    <form action="https://formsubmit.co/YOUR_EMAIL"
+          method="POST">
+
+        <label>Parent's Name (Optional)</label>
+        <input type="text" name="Parent Name"
+               placeholder="Enter your name">
+
+        <label>Rate Student 1 – Introduction</label>
+        <select name="Student 1 Rating" required>
+            <option value="">Select rating</option>
+            <option>⭐ Excellent - 5</option>
+            <option>Very Good - 4</option>
+            <option>Good - 3</option>
+            <option>Average - 2</option>
+            <option>Needs Improvement - 1</option>
+        </select>
+
+        <label>Rate Student 2 – Paytm Demonstration</label>
+        <select name="Student 2 Rating" required>
+            <option value="">Select rating</option>
+            <option>⭐ Excellent - 5</option>
+            <option>Very Good - 4</option>
+            <option>Good - 3</option>
+            <option>Average - 2</option>
+            <option>Needs Improvement - 1</option>
+        </select>
+
+        <label>Rate Student 3 – Advantages and Safety</label>
+        <select name="Student 3 Rating" required>
+            <option value="">Select rating</option>
+            <option>⭐ Excellent - 5</option>
+            <option>Very Good - 4</option>
+            <option>Good - 3</option>
+            <option>Average - 2</option>
+            <option>Needs Improvement - 1</option>
+        </select>
+
+        <label>Overall Presentation Rating</label>
+        <select name="Overall Rating" required>
+            <option value="">Select rating</option>
+            <option>Excellent</option>
+            <option>Very Good</option>
+            <option>Good</option>
+            <option>Average</option>
+        </select>
+
+        <label>Your Valuable Suggestions</label>
+        <textarea name="Suggestions" rows="4"
+        placeholder="Share your feedback here..."></textarea>
+
+        <input type="hidden" name="_subject"
+               value="PTM Student Presentation Feedback">
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</div>
+
+</body>
+</html>
